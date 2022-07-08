@@ -254,6 +254,14 @@ h1 {
 }
 
 /* LATEST PRODUCTS */
+.reveal > .lproducts {
+    color: black;
+    background-color: white;
+    border: none;
+    align-items: center;
+    margin-top: 100px;
+}
+
 #latest {
     display: flex;
     align-items: center;
