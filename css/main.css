@@ -156,25 +156,35 @@ header a {
     max-width: 40vw;
 }
 
+.sample {
+    color: black;
+    font-size: 2vw;
+    margin-left: 5%;
+    margin-top: 7vw;
+}
+
 #designs {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 8vw;
+    margin-top: 3vw;
 }
 
 #compiler {
     width: 50%;
-    flex-wrap: wrap;
     text-align: center;
+    position: relative;
 }
 
 #compiler img {
     width: 80%;
     height: 80%;
-    padding-bottom: 30px;
     border-radius: 5px;
+}
+
+#compiler img:hover {
+    border: 5px solid black;
 }
 
 #foot {
