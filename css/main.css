@@ -181,10 +181,11 @@ header a {
     width: 80%;
     height: 80%;
     border-radius: 5px;
+    padding-top: 10px;
 }
 
 #compiler img:hover {
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 #foot {
