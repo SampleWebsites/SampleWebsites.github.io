@@ -190,7 +190,7 @@ header a {
 
 #foot {
     width: 100%;
-    height: 8vw;
+    height: 7vw;
     background-color: #ab6f33;
     margin-top: 5vw;
 }
@@ -249,3 +249,16 @@ header a {
         margin: 140px 0 0 0;
     }
 } 
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
