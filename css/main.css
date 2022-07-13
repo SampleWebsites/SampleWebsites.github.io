@@ -159,21 +159,29 @@ header a {
     max-width: 40vw;
 }
 
-#compiler {
+.sample {
+    color: black;
+    font-size: 2vw;
+    margin: 4vw 0 0 6vw;
+}
+
+#designs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 9vw;
 }
 
 #compiler img {
-    width: 30%;
-    height: 20%;
-    padding-bottom: 30px; 
-    border-radius: 5px;
-    border: 1px solid gray;
+    width: 40vw;
+    height: 20vw;
+    margin-top: 2vw;
+}
+
+#compiler:hover {
+    position: relative;
+    top: -10px;
 }
 
 #foot {
