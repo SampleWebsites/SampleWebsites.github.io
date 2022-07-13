@@ -68,7 +68,7 @@ a:active {
     color: white;
     position: absolute;
     top: 17vw;
-    left: 20vw;
+    left: 23.4vw;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ a:active {
     padding: 5px;
     text-align: center;
     color: white;
-    margin: 100px 0 0 0;
+    margin: 8vw 0 0 0;
 }
 
 #product img {
@@ -96,41 +96,12 @@ a:active {
     height: 90%;
 }
 
-#product a {
-    text-decoration: none;
-    color: white;
+#product h2 {
+    font-size: 1.8vw;
 }
 
-#footer {
-    width: 100%;
-    height: 5vw;
-    background-color: lightslategray;
-}
-
-footer {
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.5vw;
-    padding-right: 20px;
-    position: relative;
-    bottom:1.5vw;
-    left: 65vw;
-}
-
-.contact {
-    font-size: 2.5vw;
-    position: relative;
-    bottom: -1vw;
-    left: 20vw;
-    margin: 0;
+#product p {
+    font-size: 1.4vw;
 }
 
 #myForm{
@@ -207,9 +178,40 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 
+footer {
+    width: 100%;
+    height: 10vw;
+    background-color: lightslategray;
+}
+
+#footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1vw 0 0 0;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+#footer img {
+    width: 6vw;
+    height: 6vw; 
+}
+
+#footer p {
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 1.2vw;
+    padding-top: 0.5vw;
+}
+
+
 @media (max-width:1024px) {
     #contents {
         height: 170vw;
+    }
+    
+    #product {
+        margin: 10vw 0 0 0;
     }
 }
 
@@ -220,11 +222,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .open-button {
         font-size: 1.9vw;
     }
+
+    #product {
+        margin: 15vw 0 0 0;
+    }
 }
 
 @media (max-width:425px) {
     #contents {
-        height: 900px;
+        height: 200vw;
     }
     
     #footer {
@@ -261,25 +267,29 @@ body {font-family: Arial, Helvetica, sans-serif;}
         left: 14vw;
     }
 
-    footer a {
-        font-size: 2vw;
-        padding-right: 20px;
-        bottom:1.5vw;
-        left: 50vw;
-    }
-    
-    .contact {
-        font-size: 3vw;
-        bottom: -2.5vw;
-        left: 20vw;
+    #product h2 {
+        font-size: 3vw
     }
 
-    #product h2, p {
-        font-size: 2vw
+    #product p {
+        font-size: 2.5vw;
     }
 
     .open-button {
         width: auto;
         height: auto;
+    }
+
+    footer {
+        height: 11vw;
+    }
+
+    #footer p {
+        font-size: 2vw;
+        padding: 0;
+    }
+
+    #product {
+        margin: 20vw 0 0 0;
     }
 }
