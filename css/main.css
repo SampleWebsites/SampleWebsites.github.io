@@ -87,10 +87,6 @@ nav ul li:last-child {
 }
 
 /* MAIN BODY */
-#sample {
-    margin: 5vw 25px 10vw 25px;
-}
-
 #container_2  {
     display: flex;
     justify-content: center;
@@ -151,8 +147,13 @@ nav ul li:last-child {
     max-width: 50vw;
 }
 
+/* WEBSITE SAMPLES */
+#sample {
+    margin: 5vw 50px 10vw 50px;
+}
+
 .sample {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-bottom: 8vh;
 }
 
@@ -167,7 +168,7 @@ nav ul li:last-child {
 }
 
 #compiler img {
-    width: 23vw;
+    width: 21.5vw;
     height: 40vw;
 }
 
@@ -317,11 +318,15 @@ nav ul li:last-child {
     }
 
     /* SAMPLE WEBSITES */
+    #sample {
+        margin: 5vw 30px 10vw 30px;
+    }
+
     .sample {
         font-size: 4vw;
         margin-bottom: 5vh;
     }
-    
+
     #designs {
         row-gap: 5.5vw;
         margin-bottom: 25vw;
@@ -353,3 +358,4 @@ nav ul li:last-child {
         padding: 0 4vw 0 4vw;
     }
 }
+
