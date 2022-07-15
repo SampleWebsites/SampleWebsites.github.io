@@ -245,7 +245,7 @@ nav ul li:last-child {
 @media (max-width: 426px) {
     /* NAVBAR */
     li a {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     /* BODY */
