@@ -226,6 +226,11 @@ nav ul li:last-child {
 }
 
 @media (max-width: 768px) {
+    /* NAVBAR */
+    nav ul li {
+        font-size: 2vw;
+    }
+    
     /* WEBSITE SAMPLES */
     #designs {
         row-gap: 5.5vw;
