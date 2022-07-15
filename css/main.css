@@ -227,13 +227,8 @@ nav ul li:last-child {
 @media (max-width: 768px) {
     /* WEBSITE SAMPLES */
     #designs {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
         row-gap: 5.5vw;
+        margin-bottom: 10vw;
     }
 
     #compiler img {
@@ -326,6 +321,11 @@ nav ul li:last-child {
         font-size: 4vw;
         margin-bottom: 5vh;
     }
+    
+    #designs {
+        row-gap: 5.5vw;
+        margin-bottom: 25vw;
+    }
 
     #compiler img {
         width: 40vw;
@@ -334,7 +334,7 @@ nav ul li:last-child {
 
     /* FOOTER */
     #contacts {
-        height: 35vw;
+        height: 30vw;
         justify-content: center;
     }
 
