@@ -334,23 +334,22 @@ nav ul li:last-child {
 
     /* FOOTER */
     #contacts {
-        height: 15vw;
+        height: 35vw;
+        justify-content: center;
     }
 
     #footer h1 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
+        margin-bottom: 2vh;
     }
 
     #foot {
-        margin-right: 3vw;
+        margin-right: 0;
     }
 
     #footer a img {
         max-width: 8vw;
         height: 8vw;
-        padding: 0 2vw 0 2.5vw;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        padding: 0 4vw 0 4vw;
     }
 }
