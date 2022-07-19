@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 40vw;
+    background-image: url(https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/291767948_560575849058358_6706585029555233888_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=1pBnVMekXFAAX8W-C5A&_nc_ht=scontent.fceb1-2.fna&oh=03_AVIvAszJW4R7Pv4dxa9F46iYojOPnc6AeDXTCPTWfDCgvA&oe=62FD567B);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: #262626;
+    font-family: monospace;
+}
+
+h1 {
+    position: fixed;
+    bottom: 2vw;
+    left: 44vw;
+    font-size: 2.5vw;
+}
+
+a {
+    color: #FFE000;
+}
+
+a h1:hover {
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+@media(max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+
+    h1 {
+        top: 45vw;
+        left: 43vw;
+        font-size: 3vw;
+    }
+}
+
+@media(max-width: 425px) {
+    body {
+        margin: 20vw 0 0 0;
+    }
+
+    h1 {
+        top: 60vw;
+        left: 38vw;
+        font-size: 5vw;
+    }
+}
+
