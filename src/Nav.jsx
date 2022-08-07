@@ -3,9 +3,9 @@ const Nav = () => {
         <header>
             <nav id="navbar">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="#/">Home</a></li>
                     <li><a href="#/templates">Templates</a></li>
-                    <li><a href="/templates">Our Works</a></li>
+                    <li><a href="#/templates">Our Works</a></li>
                     <li><a href="#habout">About</a></li>
                     <li><a href="#hcontact">Contact</a></li>
                 </ul>
