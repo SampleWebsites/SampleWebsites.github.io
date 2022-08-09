@@ -1,0 +1,151 @@
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 150px;  
+    height: 100%;
+    background-color: #0e2844;
+    padding: 5vw 2vw;
+}
+
+.foot > * {
+    flex: 1 1 33%;
+}
+
+.foot p {
+    font-family: Sans-serif;
+    font-size: 2.6vw;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+.about {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.links p {
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.inner {
+    text-align: right;
+}
+
+.inner a {
+    margin: 10px;
+}
+
+.inner a img:hover {
+    top: -14px;
+    transform: scale(1.1);
+}
+
+.lilimg {
+    margin-right: 5vw;
+}
+
+.description .line > a{
+    color: var(--yellow);
+}
+
+.description {
+    margin: 20px;
+    width: 450px;
+    text-align: justify;
+}
+
+.foot .description:last-child span {
+    text-align: left;
+    color: var(--yellow);
+}
+
+.description span {
+    font-family: Sans-serif;
+    color: white;
+    font-size: 1.6vw;
+    text-align: left;
+}
+
+.description img {
+    width: 4vw;
+    margin-bottom: 2vw;
+}
+
+@media (max-width: 769px) {
+    .foot .about {
+        font-size: 4vw;
+    }
+
+    .description span {
+        font-size: 2vw;
+    }
+
+    .lilimg {
+        margin-right: 0;
+    }
+
+    .lilimg img {
+        width: 6vw;
+    }
+
+    .links > p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .foot .description:last-child span {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 426px) {
+    /* FOOTER */
+    .foot {
+        margin-top: 90px;
+    }
+
+    .foot > * {
+        flex: 1 100%;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .description .about {
+        font-size: 6vw;
+    }
+
+    .description span {
+        font-size: 3.5vw;
+    }
+
+    .lilimg {
+        align-items: center;
+        text-align: center;
+    }
+
+    .lilimg img {
+        width: 10vw;
+    }
+
+    .links p {
+        font-size: 3.5vw;
+    }
+
+    .line {
+        font-size: 5vw;
+    }
+
+    .foot .description:last-child span {
+        font-size: 3vw;
+    }
+}
