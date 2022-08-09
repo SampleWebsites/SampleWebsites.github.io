@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <script type="module" crossorigin src="/assets/index.054dda6e.js"></script>
+    <link rel="stylesheet" href="/assets/index.b1d60acc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+      window.addEventListener('scroll', reveal);
+
+      function reveal() {
+          var reveals = document.querySelectorAll('.reveal');
+
+          for(var i = 0; i < reveals.length; i++) {
+              var windowheigth = window.innerHeight;
+              var revealtop = reveals[i].getBoundingClientRect().top;
+              var revealpoint = 100;
+
+              if(revealtop < windowheigth - revealpoint) {
+                  reveals[i].classList.add('active');
+              }
+              else {
+                  reveals[i].classList.remove('active');
+              }
+          }
+      }
+    </script>
+  </body>
+</html>
